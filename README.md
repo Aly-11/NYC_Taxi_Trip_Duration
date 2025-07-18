@@ -4,6 +4,8 @@ A machine learning project that predicts NYC taxi trip duration using pickup/dro
 developed by:Aly Osama & Aya sayed 
 
 
-data link:https://www.kaggle.com/competitions/nyc-taxi-trip-duration
+data's link:https://www.kaggle.com/competitions/nyc-taxi-trip-duration
 
-Gui link:https://aly-11-nyc-taxi-trip-duration--stream-lit-app-uckeeh.streamlit.app/
+Gui's link:https://aly-11-nyc-taxi-trip-duration--stream-lit-app-uckeeh.streamlit.app/
+
+Video's link:https://www.youtube.com/watch?v=IfGdBUsAHbo&ab_channel=AlyOsama
