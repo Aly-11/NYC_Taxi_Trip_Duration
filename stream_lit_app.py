@@ -30,10 +30,11 @@ model = load_model()
 # --------------------------------------------------
 @st.cache_resource
 def load_graph():
-    ox.config(use_cache=True, log_console=False)
-    return ox.graph_from_place("New York City, USA", network_type="drive")
+    return ox.graph_from_place(
+        "Manhattan, New York City, USA",
+        network_type="drive"
+    )
 
-G = load_graph()
 
 # --------------------------------------------------
 # A* Routing Function
@@ -201,3 +202,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
