@@ -4,4 +4,10 @@ pandas
 joblib
 folium
 streamlit-folium
+osmnx
+networkx
+shapely
+geopy
+
+
 
