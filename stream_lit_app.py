@@ -31,7 +31,7 @@ model = load_model()
 @st.cache_resource
 def load_graph():
     return ox.graph_from_place(
-        "Manhattan, New York City, USA",
+        "New York City, USA",
         network_type="drive"
     )
 G = load_graph()  
@@ -201,6 +201,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
