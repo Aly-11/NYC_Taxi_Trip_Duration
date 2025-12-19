@@ -34,7 +34,7 @@ def load_graph():
         "Manhattan, New York City, USA",
         network_type="drive"
     )
-
+G = load_graph()  
 
 # --------------------------------------------------
 # A* Routing Function
@@ -202,4 +202,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
