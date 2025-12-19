@@ -179,10 +179,9 @@ with right:
 
                 st.markdown(
                     f"""
-                    <div style='background:#f0f0f0;padding:15px;
-                                border-radius:10px;text-align:center;'>
-                        <h2>🕒 {minutes} min {seconds} sec</h2>
-                        <p>Distance: {distance_km:.2f} km</p>
+                    <div style='background-color:#00000;padding:10px;border-radius:8px;text-align:center;'>
+                        <h3>🕒 {minutes} min {seconds} sec</h3>
+                        <small>({int(prediction)} seconds total)</small>
                     </div>
                     """,
                     unsafe_allow_html=True
@@ -202,5 +201,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
